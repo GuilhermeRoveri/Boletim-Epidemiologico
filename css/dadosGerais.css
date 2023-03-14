@@ -1,0 +1,27 @@
+
+.dadosGerais{
+    display: flex ;
+    justify-content: end;
+    align-items: center ;
+
+}
+.dadosGerais__info{
+  font-family: Pacifico;
+    width: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.dadosGerais__boletim {
+    background: rgb(94,116,242);
+background: linear-gradient(90deg, rgba(94,116,242,1) 51%, rgba(75,97,254,1) 54%, rgba(227,5,255,1) 75%, rgba(224,255,0,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imagem{
+    width: 150px;
+    height: 150px;
+}
